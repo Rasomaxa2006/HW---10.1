@@ -7,17 +7,17 @@ void main() {
 
     // Задача 1
     System.out.println("Задача 1");
-    String firstName = ("Ivan");
-    String middleName = ("Ivanovich");
-    String lastName = ("Ivanov");
+    String firstName = "Ivan";
+    String middleName = "Ivanovich";
+    String lastName = "Ivanov";
     String fullName = "Ivanov " + "Ivan " + "Ivanovich";
     System.out.println("Ф.И.О. сотрудника = " + fullName);
     System.out.println(" ");
     System.out.println("________");
     // Задача 2
     System.out.println("Задача 2");
-    String small = "ivanov ivan ivanovich";
-    System.out.println( "Ф.И.О. сотрудника " + fullName.toUpperCase());
+    String fullName4 = "ivanov ivan ivanovich";
+    System.out.println( "Ф.И.О. сотрудника " + fullName4.toUpperCase());
     System.out.println(" ");
     System.out.println("_________");
 
